@@ -1,13 +1,14 @@
 import datetime
 ERRORCOUNT = 0
 USRname = input("What is your name?") #Asks what your name is
-print("Hi",) # shows hi
+print("Hi",USRname) # shows hi
 while True:
-    USRinput = input('command: ')
+    USRinput = input('Command: ')
     if USRinput == 'Qnote':
-        print("Note saved:", input("Quick Note: "))
+        Qnote = input("Quick Note: ")
+        print (Qnote)
     elif USRinput == 'txt':
-        TXT = input("Enter the content for your note: ")
+        TXT = input("TXT note: ")
             filename = "notes_" + datetime.datetime.now().strftime("%Y%m%d_%H%M%S") + ".txt"
             with open(filename, "w") as file: 
                 file.write(TXT + "\n"); print("New file created:", filename)
