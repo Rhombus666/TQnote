@@ -1,6 +1,6 @@
 import datetime
 ERRORCOUNT = 0
-USRname = input("What is your name?") # shows what is your name
+USRname = input("What is your name?") #Asks what your name is
 print("Hi",) # shows hi
 while True:
     USRinput = input('command: ')
