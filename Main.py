@@ -1,7 +1,7 @@
 import datetime
 ERRORCOUNT = 0
-USRname = input("What is your name?")
-print("Hi",)
+USRname = input("What is your name?") # shows what is your name
+print("Hi",) # shows hi
 while True:
     USRinput = input('command: ')
     if USRinput == 'Qnote':
@@ -12,7 +12,7 @@ while True:
             with open(filename, "w") as file: 
                 file.write(TXT + "\n"); print("New file created:", filename)
     elif USRinput.lower() == 'exit': 
-        print("Goodbye!"); break
+        print("Goodbye!"); break # shows goodbye
     else: 
         ERRORCOUNT = ERRORCOUNT + 1 
         print("Unknown command Error number:", ERRORCOUNT)
