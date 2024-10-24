@@ -3,8 +3,8 @@ print("Hi", Name)
 while True:
     USRinput = input('command: ') #stuff
     
-    if USRinput == 'note': #more stuff
-        NOTE1 = input("Note: ")
+    if USRinput == 'Qnote': #more stuff
+        NOTE1 = input("Quick Note: ")
         print(f"Note saved: {NOTE1}")
     
     elif USRinput == 'txt':
