@@ -4,8 +4,8 @@ while True:
     USRinput = input('command: ') #stuff
     
     if USRinput == 'Qnote': #more stuff
-        NOTE1 = input("Quick Note: ")
-        print(f"Note saved: {NOTE1}")
+        Qnote = input("Quick Note: ")
+        print(f"Note saved: {Qnote}")
     
     elif USRinput == 'txt':
         NOTESAVE = input("Note: ")
