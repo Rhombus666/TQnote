@@ -1,6 +1,6 @@
 import datetime
-
-ERRORCOUNT = 0
+print ("Welcome to textnote")
+print ("The text based, Python based note taking software for Windows")
 USRname = input("What is your name? ")  # Asks what your name is
 print("Hi", USRname)  # shows hi
 
@@ -19,5 +19,4 @@ while True:
         print("Goodbye!")
         break  # shows goodbye
     else:
-        ERRORCOUNT += 1
-        print("Unknown command. Error number:", ERRORCOUNT)
+        print("Unknown command. Error number:")
