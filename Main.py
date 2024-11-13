@@ -19,4 +19,4 @@ while True:
         print("Goodbye!")
         break  # shows goodbye
     else:
-        print("Unknown command. Error number:")
+        print("Unknown command")
